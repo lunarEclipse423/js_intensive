@@ -1,4 +1,4 @@
-const notation = () => {
+const doBaseConversion = () => {
     let firstNum = +prompt('Введите первое значение:');
     let secondtNum = +prompt('Введите второе значение:');
     if (isNaN(firstNum) || isNaN(secondtNum)) {
@@ -9,4 +9,4 @@ const notation = () => {
     console.log(firstNum.toString(secondtNum));
 }
 
-notation();
+doBaseConversion();
