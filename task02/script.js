@@ -1,4 +1,4 @@
-const calculation = () => {
+const doCalculations = () => {
     let firstNum = +prompt('Введите первое значение:');
     if (isNaN(firstNum)) {
         console.log('Некорректный ввод!');
@@ -14,4 +14,4 @@ const calculation = () => {
     console.log(`Ответ: ${firstNum + secondtNum}, ${firstNum / secondtNum}.`);
 }
 
-calculation();
+doCalculations();
