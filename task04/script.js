@@ -1,3 +1,4 @@
+// Сложность O(n), где n - длина входного массива
 const selectFromInterval = (arr, start, end) => {
     if (!Array.isArray(arr)) {
         throw new Error('Ошибка: невалидное значение для первого параметра');
