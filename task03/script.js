@@ -1,3 +1,4 @@
+// Сложность O(n), где n - количество ключей (вершин) объекта и его подобъектов на всех уровнях вложенности 
 const makeObjectDeepCopy = (obj) => {
     if (obj === undefined) {
         return obj;
